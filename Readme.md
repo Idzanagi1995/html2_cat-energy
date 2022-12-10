@@ -1,6 +1,6 @@
 # Личный проект «Cat Energy»
 
-* Студент: [Владимир Кузин]({{https://htmlacademy.ru/profile/id2227753}}).
+* Студент: [Владимир Кузин](https://htmlacademy.ru/profile/id2227753).
 * Наставник: `Нет`.
 
 ---
