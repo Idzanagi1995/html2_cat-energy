@@ -1,1 +1,7 @@
-body { background: pink; }
+@import "fonts.scss", "variables.scss", "blocks/page.scss", "blocks/main-menu.scss";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
