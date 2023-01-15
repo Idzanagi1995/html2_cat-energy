@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  width: 280px;
+  height: 40px;
+  background-color: #68B738;
+}

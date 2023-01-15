@@ -1,0 +1,48 @@
+.example {
+  background-color: #eaeaea;
+  padding: 25px 20px 40px;
+}
+
+.example__heading {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  margin: 0;
+}
+
+.example__text {
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+  margin: 0;
+}
+
+.example__money {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.example__number {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.example__subtext {
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #444444;
+}
