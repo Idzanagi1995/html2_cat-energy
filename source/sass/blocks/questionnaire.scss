@@ -1,0 +1,25 @@
+.questionnaire {
+  padding: 27px 20px 32px;
+}
+
+.questionnaire__heading {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  margin: 0;
+  padding-bottom: 38px;
+}
+
+.questionnaire__text {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  padding-bottom: 38px;
+}
+

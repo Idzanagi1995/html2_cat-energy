@@ -212,6 +212,10 @@
   padding: 39px 20px 22px;
 }
 
+.page-footer__address--grey-background {
+  background-color: #f2f2f2;
+}
+
 .address__partnership {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -246,6 +250,99 @@
 .copyright__logo {
   display: block;
   color: #666666;
+}
+
+.questionnaire {
+  padding: 27px 20px 32px;
+}
+
+.questionnaire__heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  margin: 0;
+  padding-bottom: 38px;
+}
+
+.questionnaire__text {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+  padding-bottom: 38px;
+}
+
+.form__fieldset, .form input, .form textarea {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+.form ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form__fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form legend {
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: none;
+}
+
+.form__button {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 21px;
+}
+
+.form__footnote {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.cat-data {
+  padding-bottom: 44px;
+}
+
+.program {
+  padding-bottom: 45px;
+  color: #222222;
+}
+
+.contact-data {
+  padding-bottom: 24px;
+}
+
+.comment {
+  padding-bottom: 23px;
+}
+
+.comment__text {
+  display: block;
+  color: #444444;
+}
+
+.extra {
+  padding-bottom: 34px;
+  color: #000000;
 }
 
 *,
