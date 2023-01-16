@@ -1,26 +1,8 @@
-.address__partnership {
-  font-family: $font-heading;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: #111111;
-  margin: 0;
+.page-footer__address {
+  padding: 26px 20px;
 }
 
-.address__text {
-  font-family: $font-text;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #444444;
-  margin: 0;
-}
-
-.copyright__text {
-  font-family: $font-text;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-  color: #444444;
+.page-footer__contacts {
+  background-color: #f2f2f2;
+  padding: 39px 20px 22px;
 }
