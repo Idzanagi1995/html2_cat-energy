@@ -5,6 +5,7 @@
   src: url("../fonts/oswaldregular.woff2") format("woff2");
   font-display: swap;
 }
+
 @font-face {
   font-family: "Oswald";
   font-style: normal;
@@ -12,6 +13,7 @@
   src: url("../fonts/oswaldmedium.woff2") format("woff2");
   font-display: swap;
 }
+
 .page {
   font-family: "Arial", sans-serif;
   font-size: 14px;
@@ -81,7 +83,7 @@
   text-decoration: none;
   width: 280px;
   min-height: 40px;
-  background-color: #68B738;
+  background-color: #68b738;
   border: none;
 }
 
@@ -278,7 +280,9 @@
   padding-bottom: 38px;
 }
 
-.form__fieldset, .form input, .form textarea {
+.form__fieldset,
+.form input,
+.form textarea {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -479,7 +483,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
 }
 
