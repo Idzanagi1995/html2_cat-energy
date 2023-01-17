@@ -1,0 +1,25 @@
+.more-cards__heading {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+  margin: 0;
+}
+
+.more-cards__text {
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  margin: 0;
+}
+
+.more-cards__button {
+  background-color: #f2f2f2;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+}

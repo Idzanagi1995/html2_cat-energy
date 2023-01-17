@@ -40,7 +40,7 @@
 
 .nutrition {
   background-color: rgba(104, 183, 56, 0.85);
-  background-image: url("../../img/index-background-desktop.jpg");
+  background-image: url("/source/img/index-background-desktop.jpg");
   background-size: cover;
 }
 
@@ -80,8 +80,9 @@
   color: #ffffff;
   text-decoration: none;
   width: 280px;
-  height: 40px;
+  min-height: 40px;
   background-color: #68B738;
+  border: none;
 }
 
 .catalogs {
@@ -343,6 +344,147 @@
 .extra {
   padding-bottom: 34px;
   color: #000000;
+}
+
+.catalog {
+  padding: 29px 20px 35px;
+}
+
+.catalog__heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  margin: 0;
+  padding-bottom: 47px;
+}
+
+.main-products__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-products__heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+}
+
+.main-products__parameters {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  margin: 0;
+}
+
+.main-products__image {
+  display: block;
+}
+
+.main-products__parameters dd {
+  margin: 0;
+}
+
+.main-products__button {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.more-cards__heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+  margin: 0;
+}
+
+.more-cards__text {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  margin: 0;
+}
+
+.more-cards__button {
+  background-color: #f2f2f2;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.extra-products__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.extra-products__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.extra-products__heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+}
+
+.extra-products__parameters {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+  margin: 0;
+}
+
+.extra-products__image {
+  display: block;
+}
+
+.extra-products__parameters dd {
+  margin: 0;
+}
+
+.extra-products__button {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.gift {
+  background-color: rgba(104, 183, 56, 0.85);
+  background-image: url("/source/img/catalog-background-desktop.jpg");
+  background-size: cover;
+}
+
+.gift__text {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.gift__icon {
+  color: #ffffff;
 }
 
 *,

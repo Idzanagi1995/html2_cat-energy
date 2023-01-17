@@ -1,0 +1,36 @@
+.main-products__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-products__heading {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+}
+
+.main-products__parameters {
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+  margin: 0;
+}
+
+.main-products__image {
+  display: block;
+}
+
+.main-products__parameters dd {
+  margin: 0;
+}
+
+.main-products__button {
+  font-size: 16px;
+  line-height: 20px;
+}

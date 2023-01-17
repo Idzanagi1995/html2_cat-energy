@@ -1,0 +1,18 @@
+.gift {
+  background-color: rgba(104, 183, 56, 0.85);
+  background-image: url("/source/img/catalog-background-desktop.jpg");
+  background-size: cover;
+}
+
+.gift__text {
+  font-family: $font-text;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.gift__icon {
+  color: #ffffff;
+}
