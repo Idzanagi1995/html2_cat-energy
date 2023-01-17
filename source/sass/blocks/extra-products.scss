@@ -28,14 +28,14 @@
   line-height: 14px;
   color: #444444;
   margin: 0;
+
+  dd {
+    margin: 0;
+  }
 }
 
 .extra-products__image {
   display: block;
-}
-
-.extra-products__parameters dd {
-  margin: 0;
 }
 
 .extra-products__button {
