@@ -24,6 +24,36 @@
   margin: 0;
 }
 
+.page-header__navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.page-header__navigation .page-header__menu {
+  grid-column: 1/-1;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .page-header__navigation {
+    display: flex;
+  }
+  .page-header__navigation .page-header__toggle {
+    display: none;
+  }
+  .page-header__navigation .page-header__menu {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1440px) {
+  .page-header__navigation {
+    justify-content: space-between;
+  }
+  .page-header__navigation .page-header__menu {
+    margin-left: auto;
+  }
+}
+
 .main-menu {
   font-family: "Oswald", sans-serif;
   font-weight: 500;

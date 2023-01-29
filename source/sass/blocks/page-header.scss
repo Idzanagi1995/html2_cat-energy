@@ -1,0 +1,26 @@
+.page-header__navigation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  .page-header__menu {
+    grid-column: 1 / -1;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: $tablet-width) {
+    display: flex;
+
+    .page-header__toggle {
+      display: none;
+    }
+    .page-header__menu {
+      flex-direction: row;
+    }
+  }
+  @media (min-width: $desktop-width) {
+    justify-content: space-between;
+    .page-header__menu {
+      margin-left: auto;
+    }
+  }
+}
