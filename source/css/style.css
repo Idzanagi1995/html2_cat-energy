@@ -72,6 +72,20 @@
   background-color: rgba(104, 183, 56, 0.85);
   background-image: url("/source/img/index-background-desktop.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .nutrition {
+    background-color: #ffffff;
+  }
+}
+@media (min-width: 1440px) {
+  .nutrition {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .nutrition__heading {
@@ -83,6 +97,11 @@
   text-transform: uppercase;
   margin: 0;
 }
+@media (min-width: 768px) {
+  .nutrition__heading {
+    color: #000000;
+  }
+}
 
 .nutrition__text {
   font-family: "Oswald", sans-serif;
@@ -93,9 +112,25 @@
   text-transform: uppercase;
   margin: 0;
 }
+@media (min-width: 768px) {
+  .nutrition__text {
+    color: #000000;
+  }
+}
 
 .nutrition__image {
   display: block;
+}
+@media (min-width: 768px) {
+  .nutrition__image {
+    order: 4;
+  }
+}
+@media (min-width: 1440px) {
+  .nutrition__image {
+    grid-row: 1/-1;
+    grid-column: 2/3;
+  }
 }
 
 .button {
