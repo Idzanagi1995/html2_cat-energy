@@ -11,3 +11,9 @@
   margin: 0;
   padding-bottom: 47px;
 }
+
+.catalog__wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}

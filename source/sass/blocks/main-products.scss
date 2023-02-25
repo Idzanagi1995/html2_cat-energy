@@ -1,6 +1,13 @@
 .main-products__list {
   list-style-type: none;
+  margin: 0;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+  }
 }
 
 .main-products__heading {
