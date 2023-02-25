@@ -4,9 +4,11 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+
   @media (min-width: $tablet-width) {
     background-color: #ffffff;
   }
+
   @media (min-width: $desktop-width) {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -22,6 +24,7 @@
   color: #ffffff;
   text-transform: uppercase;
   margin: 0;
+
   @media (min-width: $tablet-width) {
     color: #000000;
   }
@@ -35,6 +38,7 @@
   color: #ffffff;
   text-transform: uppercase;
   margin: 0;
+
   @media (min-width: $tablet-width) {
     color: #000000;
   }
@@ -42,9 +46,11 @@
 
 .nutrition__image {
   display: block;
+
   @media (min-width: $tablet-width) {
     order: 4;
   }
+
   @media (min-width: $desktop-width) {
     grid-row: 1 / -1;
     grid-column: 2 / 3;
