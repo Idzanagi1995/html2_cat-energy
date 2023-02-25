@@ -1,3 +1,9 @@
 .contact-data {
   padding-bottom: 24px;
 }
+
+.contact-data__list {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}

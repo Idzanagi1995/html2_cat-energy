@@ -40,3 +40,16 @@
   line-height: 16px;
   color: #000000;
 }
+
+.form__wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
+}
+
+.form__finale {
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+}

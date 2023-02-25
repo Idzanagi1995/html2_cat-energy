@@ -2,3 +2,18 @@
   padding-bottom: 34px;
   color: #000000;
 }
+
+.extra__list {
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 123px;
+    max-width: 565px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-wrap: nowrap;
+    max-width: 100%;
+  }
+}
